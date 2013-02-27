@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+  before_filter :authorize, :except => [:home, :thanks]
   # GET /static_pages
   # GET /static_pages.json
 
