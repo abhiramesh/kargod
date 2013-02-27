@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kargod</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="logo">
+		<img src="/assets/kargod_logo.png" width="200px">
+	</div>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Varela);
+
+.front{ 
+  background: url('cars.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.signup-box{
+  background: #000000;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  width: 50%;
+  min-width: 266px;
+  padding-bottom: 30px;
+  margin-top: 5%;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.signup-title{
+   font-family: 'Oswald', sans-serif;
+   font-size: 50px;
+   line-height: 60px;
+   text-align: center;
+   color: white;
+}
+
+.go-button{
+  background-color: #00BF32;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  padding: 10px 13% 10px 13%;
+  font-size: 16px;
+  border: none;
+  margin-top: 15px;
+  min-width: 120px;
+}
+
+.go-button:hover{
+  background-color: #005416;
+  cursor: pointer;
+  color: white;
+}
+
+.logo{
+  position: relative;
+  left: 5%;
+  top: 1%;
+}
+
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Varela', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, ol, ul, td {
+  font-family: 'Varela', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+input[type="text"]{
+  height: 30px;
+  width: 30%;
+  border-radius: 0px;
+  font-family: 'Varela', sans-serif;
+  min-width: 120px;
+  margin-top: 20px;
+  color: black;
+}
+
+label{
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   margin-bottom: -15px;
+   padding-top: 20px;
+}
+
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}

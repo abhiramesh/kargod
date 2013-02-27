@@ -1,0 +1,20 @@
+<body class="front">
+	<div class="">
+		<div class="container-fluid" align="center">
+			<div class="signup-box">
+				<div class="signup-title">
+					Sign up for our private beta
+				</div>
+				<%= form_for User.new do |f| %>
+				<%= label_tag(:email, "Your email is") %>
+				<%= f.text_field :email %>
+				<br>
+				<%= label_tag(:email, "Your zipcode is") %>
+				<%= f.text_field :zipcode %>
+				<br>
+				<%= f.submit 'Submit', :class => 'go-button' %>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</body> 
